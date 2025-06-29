@@ -55,9 +55,9 @@ public class Day6 {
         BankAccount sharedAccount = new BankAccount(5000); // Starting balance ₹5000
 
         // Multiple users trying to withdraw
-        Thread user1 = new UserThread(sharedAccount, 2000, "User-Alice");
-        Thread user2 = new UserThread(sharedAccount, 1500, "User-Bob");
-        Thread user3 = new UserThread(sharedAccount, 2000, "User-Charlie");
+        Thread user1 = new UserThread(sharedAccount, 2000, "User-Vicky");
+        Thread user2 = new UserThread(sharedAccount, 1500, "User-ALwin");
+        Thread user3 = new UserThread(sharedAccount, 2000, "User-Hari");
         Thread user4 = new UserThread(sharedAccount, 1000, "User-Diana");
 
         // Start all threads
